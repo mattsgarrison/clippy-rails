@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.files        = `git ls-files`.split("\n")
   s.platform     = Gem::Platform::RUBY
   s.require_path = 'lib'
-  s.add_dependency "railties", "~> 3.0"
-  s.add_development_dependency "bundler", "~> 1.0.0"
-  s.add_development_dependency "rails",   "~> 3.0"
+  s.add_dependency "railties", "~> 4.0.3"
+  s.add_development_dependency "bundler"
+  s.add_development_dependency "rails",   "~> 4.0"
 end
